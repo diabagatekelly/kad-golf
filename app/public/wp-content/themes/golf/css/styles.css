@@ -1,0 +1,35 @@
+/* Front Page */
+.header {
+    height: 70vh;
+    color: white;
+}
+
+.categories {
+    border: 2px solid black;
+    margin: 2em 3em;
+    padding: 0;
+    position: relative;
+}
+
+.categories .img-fluid {
+    width: 100%;
+}
+
+.categories p {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.brands {
+    border: 2px solid black;
+    margin: 2em 3em;
+}
+
+.desc-add {
+    margin: 0 5em 5em;
+    padding-top: 1em;
+    border-bottom: 1px solid darkgray
+}
